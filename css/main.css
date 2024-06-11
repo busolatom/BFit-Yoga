@@ -8,7 +8,8 @@ body {
     position: relative;
     width: 100%;
     height: 100vh; /* Adjust as needed */
-    background: url(./assets/images/yogahero.jpg) cover no-repeat;
+    background: url(./assets/images/yogahero.jpg);
+    object-fit: cover;
   }
   
   .hero-animated {
