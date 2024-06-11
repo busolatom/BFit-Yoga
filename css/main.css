@@ -247,3 +247,31 @@ line-height: 26px;
   .grid-two {
     /* grid-column: 2 / 3; */
   }
+  #aspect {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+  }
+  #aspects {
+    background-color: #F8F8F8;
+    width: 100vw;
+    height: 70vh;
+    padding-top: 50px;
+  }
+#sub-header img {
+  width: 150px;
+  margin-bottom: -25px;
+}
+#sub-header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#p-one1 {
+  color: rgb(38, 50, 70);
+font-family: "DM Sans", sans-serif;
+font-size: 44px;
+font-weight: 400;
+padding-bottom: 15px;
+}
