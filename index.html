@@ -59,31 +59,136 @@
             <span id="p-one1">Enjoy All Aspects Of Yoga</span>
         </div>
         <div id="aspects">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="aspectdiv">
+                <img class="cardimg" src="./assets/icons/icon1.webp" alt="icon image 1">
+                <div class="cardtext">
+                <p class="p-three">Asana</p>
+                <p class="p-four">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                </div>
+            </div>
+            <div class="aspectdiv">
+                    <img class="cardimg" src="./assets/icons/icon2.webp" alt="icon image 1">
+                    <div class="cardtext">
+                    <p class="p-three">Meditation</p>
+                    <p class="p-four">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                    </div>
+            </div>
+            <div class="aspectdiv">
+                <img class="cardimg" src="./assets/icons/icon3.webp" alt="icon image 1">
+                <div class="cardtext">
+                <p class="p-three">Mudra</p>
+                <p class="p-four">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                </div>
+            </div>
+            <div class="aspectdiv">
+                <img class="cardimg" src="./assets/icons/icon4.webp" alt="icon image 1">
+                <div class="cardtext">
+                <p class="p-three">Bandhas</p>
+                <p class="p-four">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                </div>
+            </div>
+            <div class="aspectdiv">
+                <img class="cardimg" src="./assets/icons/icon5.webp" alt="icon image 1">
+                <div class="cardtext">
+                <p class="p-three">Philosophy</p>
+                <p class="p-four">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                </div>
+            </div>
+            <div class="aspectdiv">
+                <img class="cardimg" src="./assets/icons/icon6.webp" alt="icon image 1">
+                <div class="cardtext">
+                <p class="p-three">Pranayama</p>
+                <p class="p-four">Grab the opportunity to deepen your own yoga practice, relax, restore and experience india!</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section>
-        why choose us goes here
+    <section id="appointment">
+        <div id="appointments">
+            <div id="sub-header">
+                <span><img src="./assets/Iconlogo/png/logo-color.png" alt="logo icon"></span>
+                <span id="p-one2">Make An Appointment</span>
+            </div>
+            <!-- <form action="">
+                <div id="input-grid">
+                    <span class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Name">
+                    </span> 
+                    <span class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email">
+                    </span>
+                    <span class="form-item">
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" placeholder="Phone">
+                    </span>
+                    <span class="form-item">
+                            <label for="class">Choose Your Class</label>
+                            <select name="people" id="people">
+                            <option value="" disabled selected hidden>Choose Your Class</option>
+                              <option value="asana">Asana</option>
+                              <option value="meditation">Meditation</option>
+                              <option value="mudra">Mudra</option>
+                              <option value="bandhas">Bandhas</option>
+                              <option value="philosophy">Philosophy</option>
+                              <option value="pranayama">Pranayam</option>
+                            </select>
+                    </span>  
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                </div>
+                <button id="mbutton">SUBMIT</button>
+            </form> -->
+            <form action="">
+                <div id="input-grid">
+                    <span class="form-item">
+                        <!-- <label for="name">Name</label> -->
+                        <input type="text" id="name" placeholder="Name">
+                    </span> 
+                    <span class="form-item">
+                        <!-- <label for="email">Email</label> -->
+                        <input type="email" id="email" placeholder="Email">
+                    </span>
+                    <span class="form-item">
+                        <!-- <label for="phone">Phone</label> -->
+                        <input type="text" id="phone" placeholder="Phone">
+                    </span>
+                    <span class="form-item">
+                        <!-- <label for="class">Choose Your Class</label> -->
+                        <select name="people" id="people">
+                            <option value="" disabled selected hidden>Choose Your Class</option>
+                            <option value="asana">Asana</option>
+                            <option value="meditation">Meditation</option>
+                            <option value="mudra">Mudra</option>
+                            <option value="bandhas">Bandhas</option>
+                            <option value="philosophy">Philosophy</option>
+                            <option value="pranayama">Pranayam</option>
+                        </select>
+                    </span>  
+                    <span id="message">
+                        <!-- <label for="message"></label><br><br> -->
+                        <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea>
+                    </span>
+                </div>
+                <button id="mbutton">SUBMIT</button>
+            </form>            
+        </div>
     </section>
-    <section>
-        upcoming courses goes here
-    </section>
-    <section>
-        our gallery goes here
-    </section>
-    <section>
-        make an appointment goes here
-    </section>
-    <section>
-        slider review goes here
+    <section class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+           </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
     </section>
     <section>
         footer goes here
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

@@ -1,15 +1,21 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
   }
   
-  .yoga-welcome {
+  /* .yoga-welcome {
     background-image: url(../assets/images/yogahero.jpg);
     background-size: cover;
     position: relative;
     width: 100vw;
-    height: 100vh; /* Adjust as needed */
+    height: 100vh;
   }
   
   .hero-animated {
@@ -32,7 +38,7 @@ body {
       opacity: 1;
       transform: translateX(0);
     }
-  }
+  } */
   #hero-top {
     padding: 20px;
     margin-top: -100px;
@@ -66,85 +72,6 @@ body {
     color: white;
     width: 150px;
 }
-/* #hero {
-  background-image: url(/assets/images/Byogahero.jpg);
-  background-size: cover;
-    width: 100vw;
-    height: auto;
-} */
-/* #hero {
-  background-image: url(/assets/images/Bfithero.jpg);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh; 
-  position: relative;
-}
-
-#nav-links {
-  position: absolute;
-  top: 20px;
-  left: 20px; 
-}
-
-#nav-links span a {
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.3s; 
-}
-
-#nav-links span a:hover {
-  border-color: white;
-}
-
-#social-icons {
-  position: absolute;
-  top: 20px; 
-  right: 20px; 
-} */
-/* #hero {
-  background-image: url(/assets/images/Bfithero.jpg);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh; 
-  position: relative;
-  gap: 100px;
-}
-
-#nav-links {
-  position: absolute;
-  top: 20px;  
-  left: 20px; 
-  display: flex; 
-}
-
-#nav-links span {
-  margin-right: 20px; 
-}
-
-#nav-links span a {
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid transparent; 
-  transition: border-color 0.3s; 
-}
-
-#nav-links span a:hover {
-  border-color: white; 
-}
-
-#social-icons {
-  position: absolute;
-  top: 20px; 
-  right: 20px; 
-  display: flex;
-  align-items: center;
-}
-
-#social-icons a {
-  margin-left: 10px; 
-  color: white;
-} */
 #hero {
   background-image: url(../assets/images/Bfithero.jpg);
   background-size: cover;
@@ -253,12 +180,51 @@ line-height: 26px;
     width: 100vw;
     height: 100vh;
     padding-top: 50px;
+    margin-bottom: 50px;
   }
   #aspects {
     background-color: #F8F8F8;
     width: 100vw;
     height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    /* padding-bottom: 50px; */
+  }
+  .aspectdiv {
     padding-top: 50px;
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: -10px;
+  }
+  .p-three {
+    color: rgb(38, 50, 70);
+    display: block;
+    font-family: "DM Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+height: 24px;
+line-height: 24px;
+margin-block-end: 12px;
+margin-block-start: 35px;
+margin-bottom: 12px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 35px;
+text-align: center;
+  }
+  .p-four {
+   color: rgb(110, 117, 128);
+    display: block;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
   }
 #sub-header img {
   width: 150px;
@@ -276,3 +242,140 @@ font-size: 44px;
 font-weight: 400;
 padding-bottom: 15px;
 }
+form {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#mbutton {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 51px;
+  letter-spacing: 2px;
+  border: 0;
+  border-radius: 2px;
+  color: #5768AD;
+  background-color: white;
+  width: 150px;
+}
+/* .form-item input placeholder {
+  color: white;
+} */
+#appointment {
+  /* background-color: white; */
+  background: linear-gradient(#ffffff 50%, #F5F6FA 50%);
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  /* margin: 50px; */
+  position: relative; 
+  /* width: 100%;
+  height: 100%; */
+}
+#appointments {
+  background-color: #5768AD;
+  /* width: 75%;
+  height: 75%; */
+  position: absolute; /* Set the div to absolute positioning */
+  top: 50%; /* Move the div 50% from the top of its parent */
+  left: 50%; /* Move the div 50% from the left of its parent */
+  transform: translate(-50%, -50%); /* Adjust the div's position to center it perfectly */
+  padding: 20px;
+  width: 85%; 
+  /* height: 80%; */
+  /* margin: 0 auto; */
+}
+#appointments img {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  max-width: 50px;
+  height: auto;
+}
+#p-one2 {
+  color: white;
+font-family: "DM Sans", sans-serif;
+font-size: 44px;
+font-weight: 400;
+padding-bottom: 15px;
+}
+#appointments #input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+    width: 85%; /* Adjust the width as needed */
+}
+
+label {
+  color: white;
+}
+::placeholder {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  background-color: #7986BD;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: calc(100% - 16px); /* Adjust width to account for padding */
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100%; /* Ensure the textarea fills its parent's height */
+  resize: none; /* Prevent resizing of the textarea */
+}
+
+.mbutton {
+  background-color: #7986BD;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  justify-self: center;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px; /* Add some spacing between form items */
+  width: 100%;
+}
+#message {
+  grid-column: span 2;
+  margin-bottom: 25px;
+}
+.swiper {
+    width: 95vw;
+    height: 80vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
