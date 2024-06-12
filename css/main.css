@@ -46,11 +46,56 @@ body {
   height: 100vh; /* Adjusted height to cover the full viewport */
   position: relative;
   display: flex; 
-  justify-content: space-evenly;
+  justify-content: center;
  padding: 20px; 
   box-sizing: border-box; 
 }
+.text {
+font-family: "DM Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  max-width: 800px;
+  transform: translate(-50%, -50%);
+  animation: fadeInDown 4s ease forwards;
+}
 
+.text h1 {
+  font-size: 3em;
+  animation: fadeInUp 3s ease 1s forwards;
+}
+
+.text p {
+  font-size: 1.5em;
+  animation: fadeInUp 3s ease 1.5s forwards;
+  font-size: 20px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 #hero-content {
   display: flex; /* Added to create flex container for both divs */
   flex-direction: row;
