@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <!-- Include font awesome library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Link Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <section id="hero-top">
@@ -175,17 +177,33 @@
             </form>            
         </div>
     </section>
-    <section class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-           </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-    </section>
-    <section>
+   <section id="slider">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <i class="fa fa-quote-left fa-4x" aria-hidden="true"></i>
+            <p class="txt12">
+                This is my second time completing a 200hr TTC from B-Fit Yoga and I loved the experiences even more than the first time i had done in 2022. 
+            </p><br><br>
+            <img class="images-one" src="./assets/images/review1.webp"><br>
+            <p class="magin-para">Linnie Walton ˗ Trainer</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa fa-quote-left fa-4x" aria-hidden="true"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa fa-quote-left fa-4x" aria-hidden="true"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa fa-quote-left fa-4x" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+   </section>
+    <section id="footer">
         footer goes here
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
