@@ -281,6 +281,7 @@ label {
   color: white;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
+  text-align:justify;
 }
 
 input[type="text"],
@@ -300,7 +301,41 @@ textarea {
   height: 100%; /* Ensure the textarea fills its parent's height */
   resize: none; /* Prevent resizing of the textarea */
 }
-
+#input-grid input, #input-grid select {
+  width: 100%; /* Make inputs and select fill the entire column */
+  /* height: 30px; */
+  font-size: 16px; /* Set a consistent font size */
+  padding: 15px; /* Adjust this value to increase/decrease padding */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  /* margin-bottom: 10px; */
+}
+input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: transparent; /* Set border color to transparent on focus */
+  box-shadow: none; /* Optionally remove box shadow */
+}
+select:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: transparent; /* Set border color to transparent on focus */
+  box-shadow: none; /* Optionally remove box shadow */
+}
+textarea:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: transparent; /* Set border color to transparent on focus */
+  box-shadow: none; /* Optionally remove box shadow */
+}
+ /* select { */
+  /* Adjust padding to accommodate arrow */
+  /* padding-right: 30px; */
+  /* Adjust appearance for consistency across browsers */
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+/* }  */
+#input-grid textarea {
+  width: 100%;
+  font-size: 16px;
+}
 .mbutton {
   background-color: #7986BD;
   color: white;
