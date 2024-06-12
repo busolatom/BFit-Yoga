@@ -362,16 +362,12 @@ textarea:focus {
   background-color: #F5F6FA;
   /* text-align: center; */
 }
-#footer {
-  height: 60vh;
-  width: 100vw;
-  background-color: #263246;
-}
+
 /* Swiper Styles */
 .swiper {
   width: 95%;
   /* height: 100%; */
-  height: 550px;
+  height: 500px;
 }
 .swiper-slide {
   background: #F5F6FA;
@@ -410,3 +406,145 @@ font-family: "DM Sans", sans-serif;
 font-size: 20px;
 font-weight: 700;
 }
+#footer {
+  height: 65vh;
+  width: 100vw;
+  background-color: #263246;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-one {
+  /* margin-left: 50px;
+  padding-top: 50px;
+  width: 300px; */
+}
+#footer-one img {
+  max-width: 250px;
+  /* height: 50px; */
+  padding-top: 20px;
+  color: white;
+}
+#footer-one input {
+  width: 100%;
+  font-size: 12px;
+  padding: 15px; 
+  color: #3B4658;
+  /* position: relative; */
+  /* padding-right: 40px;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px; */
+}
+#footer-one button {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  padding: 8px;
+  border: none;
+  background-color: #5768AD;
+  color: white;
+  cursor: pointer;
+}
+#footer-sub {
+  width: 100vw;
+  background-color: #263246;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 500px;
+}
+#footer-copy i {
+  color: red;
+}
+#footer #footer-sub ul {
+  list-style-type: none;
+}
+#footer-sub a {
+  text-decoration: none;
+} 
+#footer a {
+  text-decoration: none;
+} 
+#footer-sub ul {
+  list-style-type: none;
+  text-align: left;
+  color: white;
+} 
+/* #footer ul {
+  color: rgb(155, 158, 163);
+font-family: "DM Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+height auto
+line-height: 37px; */
+/* list-style-image none
+list-style-position outside
+list-style-type none
+text-align left
+text-decoration-color rgb(155, 158, 163)
+text-decoration-line none
+text-decoration-style solid
+text-decoration-thickness auto */
+  /* list-style-type: none;
+}  */
+#footer-two ul {
+color: rgb(155, 158, 163);
+font-family: "DM Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+height: auto;
+line-height: 37px;
+list-style-type: none;
+} 
+#footer-copy a {
+  color: white;
+}
+#footer-copy span {
+  color: rgb(110, 117, 128);
+}
+#footer-two p {
+  color: rgb(255, 255, 255);
+font-family: "DM Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+}
+#footer-three p {
+  color: rgb(255, 255, 255);
+font-family: "DM Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+}
+#footer-four p {
+  color: rgb(255, 255, 255);
+font-family: "DM Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+}
+#footer-three ul {
+  color: rgb(155, 158, 163);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: auto;
+  line-height: 37px;
+  list-style-type: none;
+  } 
+  #footer-four ul {
+    color: rgb(155, 158, 163);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    line-height: 37px;
+    list-style-type: none;
+    } 
+    #footer-one {
+      color: rgb(155, 158, 163);
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      height auto
+      line-height: 37px;
+    }
