@@ -79,20 +79,31 @@ body {
 #social-icons a {
   margin-left: 20px; /* Adjusted spacing between icons */
   color: white; /* Set icon color */
-}
+} 
 #welcome {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
-  /* gap: 500px; */
+  padding: 100px;
+  background-color: #EFEFEF;
+  width: 100vw;
+  column-gap: 100px;
 }
 #welcome img {
-  width: 150px;
-  margin-bottom: -80px;
-  padding-top: 80px;
+  width: 250px;
 }
 #welcome-text {
-  max-width: 450px;
+  max-width: 600px;
+}
+#welcome video {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.6s ease;
+}
+#welcome video:hover {
+transform: scale(1.1);
 }
 #p-one {
   color: rgb(38, 50, 70);
@@ -324,14 +335,6 @@ textarea:focus {
   border-color: transparent; /* Set border color to transparent on focus */
   box-shadow: none; /* Optionally remove box shadow */
 }
- /* select { */
-  /* Adjust padding to accommodate arrow */
-  /* padding-right: 30px; */
-  /* Adjust appearance for consistency across browsers */
-  /* -webkit-appearance: none; */
-  /* -moz-appearance: none; */
-  /* appearance: none; */
-/* }  */
 #input-grid textarea {
   width: 100%;
   font-size: 16px;
@@ -367,7 +370,7 @@ textarea:focus {
 .swiper {
   width: 95%;
   /* height: 100%; */
-  height: 500px;
+  height: 600px;
 }
 .swiper-slide {
   background: #F5F6FA;
@@ -407,17 +410,12 @@ font-size: 20px;
 font-weight: 700;
 }
 #footer {
-  height: 65vh;
+  height: 55vh;
   width: 100vw;
   background-color: #263246;
   padding: 60px;
   display: flex;
   justify-content: space-between;
-}
-#footer-one {
-  /* margin-left: 50px;
-  padding-top: 50px;
-  width: 300px; */
 }
 #footer-one img {
   max-width: 250px;
@@ -430,15 +428,8 @@ font-weight: 700;
   font-size: 12px;
   padding: 15px; 
   color: #3B4658;
-  /* position: relative; */
-  /* padding-right: 40px;
-  box-sizing: border-box;
-  position: relative;
-  display: inline-block;
-  margin-right: 10px; */
 }
 #footer-one button {
-  /* position: absolute; */
   top: 0;
   right: 0;
   padding: 8px;
@@ -458,45 +449,12 @@ font-weight: 700;
 #footer-copy i {
   color: red;
 }
-#footer #footer-sub ul {
-  list-style-type: none;
-}
+
 #footer-sub a {
   text-decoration: none;
 } 
 #footer a {
   text-decoration: none;
-} 
-#footer-sub ul {
-  list-style-type: none;
-  text-align: left;
-  color: white;
-} 
-/* #footer ul {
-  color: rgb(155, 158, 163);
-font-family: "DM Sans", sans-serif;
-font-size: 16px;
-font-weight: 400;
-height auto
-line-height: 37px; */
-/* list-style-image none
-list-style-position outside
-list-style-type none
-text-align left
-text-decoration-color rgb(155, 158, 163)
-text-decoration-line none
-text-decoration-style solid
-text-decoration-thickness auto */
-  /* list-style-type: none;
-}  */
-#footer-two ul {
-color: rgb(155, 158, 163);
-font-family: "DM Sans", sans-serif;
-font-size: 16px;
-font-weight: 400;
-height: auto;
-line-height: 37px;
-list-style-type: none;
 } 
 #footer-copy a {
   color: white;
@@ -522,29 +480,29 @@ font-family: "DM Sans", sans-serif;
 font-size: 20px;
 font-weight: 400;
 }
-#footer-three ul {
-  color: rgb(155, 158, 163);
-  font-family: "DM Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  height: auto;
-  line-height: 37px;
-  list-style-type: none;
-  } 
-  #footer-four ul {
-    color: rgb(155, 158, 163);
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    height: auto;
-    line-height: 37px;
-    list-style-type: none;
-    } 
-    #footer-one {
+#footer-one {
       color: rgb(155, 158, 163);
       font-family: "DM Sans", sans-serif;
       font-size: 16px;
       font-weight: 400;
       height auto
       line-height: 37px;
+    }
+    .footer-list {
+      color: rgb(155, 158, 163);
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      height: auto;
+      line-height: 37px;
+      list-style-type: none;
+    }
+    .footer-list a {
+      color: rgb(155, 158, 163);
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      height: auto;
+      line-height: 37px;
+      list-style-type: none;
     }
