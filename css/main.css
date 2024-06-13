@@ -68,7 +68,7 @@ font-weight: 400;
   color: white;
   position: absolute;
   top: 40%;
-  right: 35%;
+  right: 32.5%;
   max-width: 800px;
   transform: translate(-50%, -50%);
   animation: fadeInDown 4s ease forwards 2;
@@ -111,25 +111,59 @@ font-weight: 400;
   flex-direction: row;
   align-items:flex-start ; /* Align both divs vertically */
   justify-content: space-between;
-  gap: 400px;
+  gap: 500px;
 }
-
-#nav-links span {
-  margin-right: 40px; /* Adjusted spacing between links */
-}
-
-#nav-links span a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-bottom: 1px solid transparent; /* Initial transparent underline */
-  transition: border-color 0.3s; /* Smooth transition for underline */
-}
-
-#nav-links span a:hover {
-  border-color: white; /* White underline on hover */
-  border-bottom-width: 2px;
-}
+  /* nav drop down styles */
+  #nav-links {
+    display: flex;
+  }
+  
+  #nav-links span {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  #nav-links span:last-child {
+    margin-right: 0; /* Remove margin from the last span to avoid extra space */
+  }
+  
+  #nav-links span a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent; /* Initial transparent underline */
+    transition: border-color 0.3s; /* Smooth transition for underline */
+  }
+  
+  #nav-links span a:hover {
+    border-color: white; /* White underline on hover */
+    border-bottom-width: 2px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #009BCC;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 #social-icons a {
   margin-left: 20px; /* Adjusted spacing between icons */
@@ -579,5 +613,6 @@ font-weight: 400;
       background-color:  rgb(155, 158, 163);
       transform: translateY(-50%);
     }
+
   
   
